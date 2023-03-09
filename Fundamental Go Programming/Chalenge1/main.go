@@ -10,7 +10,7 @@ func main() {
 	var j bool = i > 10
 	var k float64 = 123.456
 	l := 15
-	m := []rune("Я") 
+	m := rune("Я") 
 
 	fmt.Println("Halo, ini adalah Hasil Code Chalenge 1 ( Advin Kautsar ) : ")
 	fmt.Println("")
@@ -28,6 +28,8 @@ func main() {
 
 	//menampilkan base 2 dari nilai i
 	fmt.Printf("ini merupakan base2 dari nilai i => %b\n", i)
+	//menampilkan hurur Я
+	fmt.Println("ini akan menampilkan =>", string(m))
 	// menampilkan base10 dari nilai i
 	fmt.Printf("ini merupakan base10 dari nilai i => %d\n", i)
 	// menampilkan base8 dari nilai i
