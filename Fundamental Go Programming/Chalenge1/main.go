@@ -10,7 +10,7 @@ func main() {
 	var j bool = i > 10
 	var k float64 = 123.456
 	l := 15
-	m := rune("Я") 
+	m := []rune("Я")
 
 	fmt.Println("Halo, ini adalah Hasil Code Chalenge 1 ( Advin Kautsar ) : ")
 	fmt.Println("")
